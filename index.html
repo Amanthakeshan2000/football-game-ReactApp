@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Football Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <div class="game-container">
+        <div class="scoreboard">
+            <div class="scoreboard-inner">
+                <div class="score-section" id="team1-section">
+                    <div class="team-name" id="team1">Team 1</div>
+                    <div id="score1" class="score">0</div>
+                </div>
+                <div class="score-section time-section">
+                    <div class="timer" id="timer">00:00</div>
+                </div>
+                <div class="score-section" id="team2-section">
+                    <div class="team-name" id="team2">Team 2</div>
+                    <div id="score2" class="score">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="football">
+            <div id="goal" class="goal" hidden>GOALLL !!!</div>
+            <img class="field" alt="field" src="img/field.jpg" />
+            <img class="ball" alt="ball" src="img/ball.png" />
+        </div>
+        <div class="buttons-container">
+            <button id="place-bet" class="btn">Place Bet</button>
+            <button id="play-game" class="btn">Play Game</button>
+        </div>
+
+        <div class="coin-buttons-container">
+          <button class="coin-btn" data-price="10">10</button>
+          <button class="coin-btn" data-price="20">20</button>
+          <button class="coin-btn" data-price="30">30</button>
+          <button class="coin-btn" data-price="40">40</button>
+          <button class="coin-btn" data-price="50">50</button>
+          <button class="coin-btn" data-price="60">60</button>
+          <button class="coin-btn" data-price="70">70</button>
+          <button class="coin-btn" data-price="80">80</button>
+          <button class="coin-btn" data-price="90">90</button>
+          <button class="coin-btn" data-price="100">100</button>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
